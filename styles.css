@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background: url("./img/background.jpeg");
+  padding-bottom: 140px;
+}
+
+#push-in {
+  background-color: #e50914;
+  font-size: 16px;
+  padding: 8px 18px;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 56px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 140px;
+}
+
+#paragraph-watch {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+#paragraph-ready {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+input {
+  width: 500px;
+  padding-left: 10px;
+  color: #303030;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+}
+
+#button-email {
+  width: 250px;
+  background-color: #e50914;
+  border: 0;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#button-email:hover,
+#push-in:hover {
+  opacity: 0.6;
+}
+
+#formulary {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 70px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  border-top: 10px solid #303030;
+  padding: 70px 0;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#button-ask {
+  width: 800px;
+  background-color: #303030;
+  height: 70px;
+  border: 0;
+  font-size: 24px;
+  margin-top: 40px;
+  text-align: left;
+  padding: 0 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
+
+#image-ask {
+  float: right;
+  margin-top: 7px;
+  transition-duration: 0.5s;
+  transform: rotate(45deg);
+}
+
+#image-ask-spin {
+  float: right;
+  margin-top: 7px;
+  transition-duration: 0.5s;
+  transform: rotate(90deg);
+}
+
+#ask {
+  width: 800px;
+  background-color: #303030;
+  margin: 5px auto;
+  padding: 24px;
+  display: none;
+  font-size: 24px;
+}
